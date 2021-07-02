@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;           
+}
+
+@media screen and (max-width: 800px) {
+    header {
+        padding-bottom: 0;
+        width: 90%;
+        font-weight: 400;
+        font-size: 10px;
+    }
+
+    header img {
+        width: 60px;
+        padding-top: 20px;
+        margin-left: 5px;
+    }
+
+    .navbar {
+        padding-top: 20px;
+        margin-right: 0;
+    }
+
+    .navbar a {
+        font-size: 10px;
+    }
+
+    .section1 {
+        width: 90%;
+    }
+    .section1 img {
+        width: 250px;
+    
+    }
+
+    .section1 h2 {
+        font-size: 18px;
+    }
+
+    .section1 p {        
+        font-size: 12px;
+    }
+
+    .section1 button {
+        padding: 5px 40px ;
+        font-size: 12px;
+    }
+
+    .section-flex {
+        display: block;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .section-flex-child {
+        width: 90%;
+    }
+
+    .section-flex-child img {
+        width: 50px;
+    }
+
+    .section2 {
+        display: block;
+        width: 90%;
+    }
+
+    /* .section2 img {
+        width: 60%;
+        margin-left: 70px;
+        margin-right: auto;
+    } */
+
+    .section2-img1 {
+        width: 250px;
+        margin-left: 20px;
+    }
+
+    .section2-child {
+        padding: 30px 20px;
+        width: 100%;
+    }
+
+    .section2-link {
+        width: 47%;
+    }
+
+    .section3 {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .section3-child {
+        display: block;
+        top: auto;
+        left: auto;
+        position: unset;
+        margin: 0;
+    }
+
+    .img-quote {
+        width: 30px;
+        margin-left: 20px;
+    }
+
+    .section3-testimonial {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    .section4 {
+        left: 5%;
+        bottom: -455%;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section4 h2 {
+        font-size: 18px;
+    }
+
+    .section4 p {
+        font-size: 12px;
+    }
+
+    .section4-form {
+        text-align: center;
+
+    }
+
+    .section4-form input {
+        padding: 5px 30px;
+        justify-content: center;
+    }
+
+    .section4-form button {
+        padding: 5px 50px;
+        margin-top: 10px;
+
+    }
+
+    footer {
+        margin-top: 100%;
+        width: 100%;
+    }
+
+    .footer-logo {
+        margin-left: 10px;
+        padding-left: 0;
+    }
+
+    .footer-logo img {
+        width: 100px;
+    }
+
+    
+    .footer-bottom1 {
+        width: 100%;
+        padding-left: 0;
+        display: block;
+    }
+
+    .footer-bottom1 div {
+        margin: 10px 10px;
+
+
+    }
+
+    .footer-bottom2-contact {
+        margin-bottom: 20px;
+    }
+
+
+}
